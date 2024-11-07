@@ -4,7 +4,11 @@
   padding: 0;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -33,7 +37,7 @@ p {
 }
 
 .sec_gap {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .sec_head {
@@ -99,6 +103,95 @@ p {
 
 .about_us .about_video {
   width: 100%;
+}
+
+.announcement {
+  padding: 16px 24px;
+  background: #edeaea;
+  border-radius: 4px;
+  position: relative;
+  margin-left: 20px;
+}
+.announcement span {
+  padding: 5px 12px;
+  background: #f78e33;
+  color: white;
+  text-transform: capitalize;
+  position: relative;
+}
+.announcement img {
+  position: absolute;
+  width: auto !important;
+  bottom: -19px;
+  left: 0px;
+}
+
+.events {
+  margin-top: 30px;
+  border: 1px solid #e1e1e1;
+}
+.events img {
+  padding: 8px;
+  box-shadow: 1px 2px 24px rgba(0, 0, 0, 0.2745098039);
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+.events .event_txt {
+  padding: 8px 12px 30px;
+}
+.events a.event_head {
+  color: #ff4c08;
+  font-size: 22px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.events p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #2c2c2c;
+  font-size: 16px;
+}
+.events p .fa-calendar-days {
+  color: #ff4c08 !important;
+}
+.events .btn1 {
+  margin-top: 20px;
+}
+
+.partners_div .partner {
+  width: 140px;
+  margin: 35px auto;
+}
+.partners_div .partner img {
+  height: 140px;
+  width: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 6px 30px;
+  background: #fceff1;
+  box-shadow: 1px 2px 24px rgba(0, 0, 0, 0.2745098039);
+  border-radius: 4px;
+}
+
+.home_submit_entry {
+  border-radius: 6px;
+  padding: 20px;
+  border: 2px solid #b76e79;
+}
+.home_submit_entry img {
+  width: 100%;
+  border-radius: 6px;
+}
+.home_submit_entry .btn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
 }
 
 .faq_div {
@@ -206,7 +299,7 @@ details p {
 }
 
 .footer_div {
-  background: #000000;
+  background: #2c2c2c;
 }
 .footer_div .footer_logo_div {
   margin-bottom: 20px;
@@ -273,9 +366,10 @@ details p {
   border-radius: 50%;
 }
 .footer_div .copy_right_area {
-  padding-top: 40px;
+  padding: 8px 0;
   color: white;
 }
 .footer_div .copy_right_area p {
+  bottom: 0 !important;
   color: white;
 }/*# sourceMappingURL=style.css.map */
