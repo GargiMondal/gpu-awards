@@ -58,13 +58,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Event Updates</a>
+              <a class="nav-link" href="updated_events.html">Event Updates</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Award Categories</a>
@@ -91,7 +91,7 @@
   </header>
   <!--------------- banner section start --------------->
   <section class="banner_div">
-    <div id="carouselExampleControls" class="carousel slide banner-slider" data-bs-ride="carousel">
+    <!-- <div id="carouselExampleControls" class="carousel slide banner-slider" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/banner-1.jpg" alt="Banner Slider 1" loading="lazy">
@@ -122,8 +122,11 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
-
+    </div> -->
+    <video class="about_video" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
   </section>
 
 
@@ -139,28 +142,30 @@
           <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
         </h4>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-6">
           <video class="about_video" controls>
             <source src="movie.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
           </video>
         </div>
-        <div class="col-md-6">
-          <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            Sed elementum pellentesque nibh, auctor varius felis ornare euismod. Etiam in purus ac ipsum placerat
-            imperdiet eu lacinia quam. Aliquam vel scelerisque quam. In suscipit massa non elementum commodo. Nullam id
-            mi pellentesque, tempus mauris quis, egestas arcu.
-          </p>
-          <p class="pb-2">
-            In condimentum mollis purus vitae egestas. Donec
-            consectetur, felis et semper fermentum, eros orci egestas mauris, at imperdiet justo erat vel quam. Aliquam
-            at risus nec augue molestie consectetur eget sit amet mauris. Mauris a lectus varius, dignissim nulla quis,
-            commodo justo. Donec ornare condimentum arcu sit amet feugiat. Interdum et malesuada fames ac ante .
-          </p>
-          <a href="#" class="btn1" data-aos="fade-up" data-aos-anchor-placement="top-bottom">learn more</a>
-        </div>
+        <div class="col-md-6"> -->
+      <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        Sed elementum pellentesque nibh, auctor varius felis ornare euismod. Etiam in purus ac ipsum placerat
+        imperdiet eu lacinia quam. Aliquam vel scelerisque quam. In suscipit massa non elementum commodo. Nullam id
+        mi pellentesque, tempus mauris quis, egestas arcu.
+      </p>
+      <p class="pb-2">
+        In condimentum mollis purus vitae egestas. Donec
+        consectetur, felis et semper fermentum, eros orci egestas mauris, at imperdiet justo erat vel quam. Aliquam
+        at risus nec augue molestie consectetur eget sit amet mauris. Mauris a lectus varius, dignissim nulla quis,
+        commodo justo. Donec ornare condimentum arcu sit amet feugiat. Interdum et malesuada fames ac ante .
+      </p>
+      <div class="text-center">
+        <a href="#" class="btn1" data-aos="fade-up" data-aos-anchor-placement="top-bottom">read more</a>
       </div>
+      <!-- </div>
+      </div> -->
     </div>
   </section>
   <!-------------- ABOUT US section end -------------->
@@ -177,8 +182,9 @@
           <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
         </h4>
       </div>
-      <div class="owl-carousel owl-theme announcement_slider">
-        <div class="item">
+      <!-- <div class="owl-carousel owl-theme announcement_slider"> -->
+      <div class="row">
+        <div class="col-md-3">
           <div class="announcement">
             <div style="position: relative;margin-bottom: 20px;margin-left: -44px;">
               <span>jul 20, 2020</span>
@@ -186,9 +192,9 @@
             </div>
             <h4>Entries open 1</h4>
             <p><i>Entries are opened for submission on July 06 2020</i></p>
-          </div>         
+          </div>
         </div>
-        <div class="item">
+        <div class="col-md-3">
           <div class="announcement">
             <div style="position: relative;margin-bottom: 20px;margin-left: -44px;">
               <span>jul 20, 2020</span>
@@ -198,134 +204,216 @@
             <p><i>Entries are opened for submission on July 06 2020</i></p>
           </div>
         </div>
+        <div class="col-md-3">
+          <div class="announcement">
+            <div style="position: relative;margin-bottom: 20px;margin-left: -44px;">
+              <span>jul 20, 2020</span>
+              <img src="images/page-fold2.png" alt="">
+            </div>
+            <h4>Entries open 3</h4>
+            <p><i>Entries are opened for submission on July 06 2020</i></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="announcement">
+            <div style="position: relative;margin-bottom: 20px;margin-left: -44px;">
+              <span>jul 20, 2020</span>
+              <img src="images/page-fold2.png" alt="">
+            </div>
+            <h4>Entries open 4</h4>
+            <p><i>Entries are opened for submission on July 06 2020</i></p>
+          </div>
+        </div>
       </div>
+      <!-- </div> -->
     </div>
   </section>
   <!------------- announcement section end ------------>
 
 
-<!------------- Latest Events section start ------------>
-<section class="announcement_div latest_events sec_gap">
-  <div class="container">
-    <div class="sec_headeing">
-      <h4 class="sec_head text-center">Latest Events
-        <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
-      </h4>
-    </div>
-    <div class="owl-carousel owl-theme latestSlider">
-      <div class="item">
-        <div class="events">
-        <img src="images/latest_events/event_1.jpg" alt="Event 1" loading="lazy">
-        <div class="event_txt">
-          <a href="" class="event_head">2020 Award Winners</a>
-          <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-          <p><i>
-            Awards Hall of Fame: 2020 Winners, links to their stories and judges' comments.
-          </i></p>
-          <a href="" class="btn1">learn more</a>
-          </div>
-        </div>         
+  <!------------- Latest Events section start ------------>
+  <section class="announcement_div latest_events sec_gap">
+    <div class="container">
+      <div class="sec_headeing">
+        <h4 class="sec_head text-center">Latest Events
+          <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
+        </h4>
       </div>
-      <div class="item">
-        <div class="events">
-        <img src="images/latest_events/event_2.jpeg" alt="Event 2" loading="lazy">
-        <div class="event_txt">
-          <a href="" class="event_head">Watch National Journalism Awards 2020 Live</a>
-          <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-          <p><i>
-            Watch National Journalism Awards 2020 Live!
-          </i></p>
-          <a href="" class="btn1">learn more</a>
-        </div>
-        </div>         
-      </div>
-      <div class="item">
-        <div class="events">
-        <img src="images/latest_events/event_3.jpeg" alt="Event 3" loading="lazy">
-        <div class="event_txt">
-          <a href="" class="event_head">GPU Awards 2020: Host Broadcaster Confirmed</a>
-          <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-          
-          <p><i>
-            Eye Africa TV wins host broadcaster bid for this year's GPU National Journalism Awards. The Branding and Communications Committee confirmed the winning bid on Friday 9 October 2020.
-          </i></p>
-          <a href="" class="btn1">learn more</a>
-          </div>
-        </div>         
-      </div>
-    </div>
-  </div>
-</section>
-<!------------- Latest Events section end ------------>
-
-
-
- <!------------- partners section start ------------>
- <section class="announcement_div partners_div mb-4">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-9">
-        <div class="sec_headeing">
-          <h4 class="sec_head text-center">our partners
-            <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
-          </h4>
-        </div>
-        <div class="owl-carousel owl-theme partner_slider">
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_1.png" alt="Partner 1" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_2.png" alt="Partner 2" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_3.jpg" alt="Partner 3" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_4.jpeg" alt="Partner 4" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_5.png" alt="Partner 5" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_6.png" alt="Partner 6" loading="lazy">
-            </div>         
-          </div>
-          <div class="item">
-            <div class="partner">
-              <img src="images/partners/partner_7.png" alt="Partner 7" loading="lazy">
-            </div>         
+      <!-- <div class="owl-carousel owl-theme latestSlider"> -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="events">
+            <img src="images/latest_events/event_1.jpg" alt="Event 1" loading="lazy">
+            <div class="event_txt">
+              <a href="" class="event_head">2020 Award Winners</a>
+              <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
+              <p><i>
+                  Awards Hall of Fame: 2020 Winners, links to their stories and judges' comments.
+                </i></p>
+              <a href="" class="btn1">learn more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="home_submit_entry">
-          <img src="images/latest_events/event_1.jpg" alt="" loading="lazy">
-          <a href="" class="btn1">submit entry</a>
+        <div class="col-md-4">
+          <div class="events">
+            <img src="images/latest_events/event_2.jpeg" alt="Event 2" loading="lazy">
+            <div class="event_txt">
+              <a href="" class="event_head">Watch National Journalism Awards 2020 Live</a>
+              <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
+              <p><i>
+                  Watch National Journalism Awards 2020 Live!
+                </i></p>
+              <a href="" class="btn1">learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="events">
+            <img src="images/latest_events/event_3.jpeg" alt="Event 3" loading="lazy">
+            <div class="event_txt">
+              <a href="" class="event_head">GPU Awards 2020: Host Broadcaster Confirmed</a>
+              <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
+
+              <p><i>
+                  Eye Africa TV wins host broadcaster bid for this year's GPU National Journalism Awards. The Branding
+                  and Communications Committee confirmed the winning bid on Friday 9 October 2020.
+                </i></p>
+              <a href="" class="btn1">learn more</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    
-  </div>
-</section>
-<!------------- partners section end ------------>
+    </div>
+  </section>
+  <!------------- Latest Events section end ------------>
+
+
+
+  <!------------- partners section start ------------>
+  <section class="announcement_div partners_div mb-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <div class="sec_headeing">
+            <h4 class="sec_head text-center">our partners
+              <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
+            </h4>
+          </div>
+          <!-- <div class="owl-carousel owl-theme partner_slider"> -->
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_1.png" alt="Partner 1" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_2.png" alt="Partner 2" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_3.jpg" alt="Partner 3" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_4.jpeg" alt="Partner 4" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_5.png" alt="Partner 5" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_6.png" alt="Partner 6" loading="lazy">
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="partner">
+                <img src="images/partners/partner_7.png" alt="Partner 7" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="col-md-4">
+          <div class="home_submit_entry">
+            <img src="images/latest_events/event_1.jpg" alt="" loading="lazy">
+            <a href="" class="btn1">submit entry</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!------------- partners section end ------------>
 
 
 
   <!-------------- Frequently asked question SECTION start ------------>
   <section class="faq_div sec_gap">
     <div class="container">
-      <ul class="nav nav-tabs faq_tabs mt-3 mb-3 justify-content-center" id="myTab" role="tablist"
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="mb-3">
+            <p>Organised By</p>
+            <img src="images/gpuAward.webp" alt="LOGO" loading="lazy" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <p>Sponsors</p>
+            <div class="owl-carousel owl-theme sponsor_slider">
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_1.png" alt="Partner 1" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_2.png" alt="Partner 2" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_3.jpg" alt="Partner 3" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_4.jpeg" alt="Partner 4" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_5.png" alt="Partner 5" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_6.png" alt="Partner 6" loading="lazy">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner">
+                  <img src="images/partners/partner_7.png" alt="Partner 7" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p>Part Of</p>
+          <img src="images/gambia.png" alt="Gambia" loading="lazy" style="width: 100%;">
+        </div>
+      </div>
+
+
+      <!-- <ul class="nav nav-tabs faq_tabs mt-3 mb-3 justify-content-center" id="myTab" role="tablist"
         style="border-bottom: none;">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
@@ -357,7 +445,7 @@
           <img src="images/gpuAward.webp" alt="LOGO" loading="lazy">
         </div>
         <div class="tab-pane partners_div fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          
+
           <div class="owl-carousel owl-theme sponsor_slider">
             <div class="item">
               <div class="partner">
@@ -401,78 +489,59 @@
           <img src="images/gambia.png" alt="Gambia" loading="lazy">
 
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <!-------------- Frequently asked question SECTION end ------------>
 
   <!--------------- Footer SECTION start --------------->
-  <footer class="footer_div " style="padding-top: 50px;">
+  <footer class="footer_div " style="padding-top: 60px;">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-7">
-          <div class="row">
-            <div class="col-12 col-md-5">
-              <div class="footer_logo_div">
-                <h5 style="color: #c2848d;">GPU AWARDS</h5>
-                <p>The Gambia National Journalism Awards is the highest and most prestigious Journalism Awards in the country organised by the Gambia Press Union.</p>
-               
-              </div>
-            </div>
-            <div class="col-6 col-md-4">
-              <div class="footer_links_div">
-                <strong>contact</strong>
-                <ul>
-                  <li style="color: white">C/O GPU, Fajara, The Gambia</li>
-                  <li style="color: white">+220 4498215 / +220 7169699</li>
-                  <li style="color: white">info@gpuawards.gm</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-6 col-md-3">
-              <div class="footer_links_div">
-                <strong>about us</strong>
-                <ul>
-                  <li><a href="#">Award Categories</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Contact us</a></li>
-                </ul>
-              </div>
-            </div>
+        <div class="col-12 col-md-4">
+          <div class="footer_logo_div">
+            <h4 style="color: #c2848d;">GPU AWARDS</h4>
+            <p>The Gambia National Journalism Awards is the highest and most prestigious Journalism Awards in the
+              country organised by the Gambia Press Union.</p>
+
           </div>
         </div>
-        <div class="col-md-12 col-lg-5">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="footer_links_div">
-                <strong>category</strong>
-                <ul>
-                  <li><a href="#">contact</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">Pricing Plans</a></li>
-                  <li><a href="#">Sitemap</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="footer_links_div">
-                <strong>social links</strong>
-                <img src="images/google-play.png" alt="" loading="lazy">
-                <img src="images/app-store.png" alt="" loading="lazy">
-                <ul class="footer_social_icons">
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                  <li><a href="#" class="active"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                </ul>
-              </div>
-            </div>
+        <div class="col-6 col-lg-2 col-md-4">
+          <div class="footer_links_div">
+            <strong>contact</strong>
+            <ul>
+              <li style="color: white">C/O GPU, Fajara, The Gambia</li>
+              <li style="color: white">+220 4498215 / +220 7169699</li>
+              <li style="color: white">info@gpuawards.gm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 col-md-4">
+          <div class="footer_links_div">
+            <strong>about us</strong>
+            <ul>
+              <li><a href="#">Award Categories</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="footer_links_div">
+            <strong>social links</strong>
+            <ul class="footer_social_icons">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#" class="active"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
-      
+
     </div>
     <div class="copy_right_area" style="background: #000000;">
       <div class="container">
@@ -480,7 +549,7 @@
           <div class="col-md-6">
             <p class="mb-0">© 2020 gpuawards.gm / All Rights Reserved</p>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -539,84 +608,84 @@
 
 
 
-    $('.announcement_slider').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      dots: false,
-      autoplay: false,
-      autoplayHoverPause: true,
-      smartSpeed: 2000,
-      autoplaytimeout: 5000,
-      responsive: {
-        0: {
-          items: 1,
-          margin: 12
-        },
-        600: {
-          items: 2,
-          margin: 10
-        },
-        1000: {
-          items: 4,
-          margin: 10
-        }
-      }
-    })
+    // $('.announcement_slider').owlCarousel({
+    //   loop: true,
+    //   margin: 10,
+    //   nav: false,
+    //   dots: false,
+    //   autoplay: false,
+    //   autoplayHoverPause: true,
+    //   smartSpeed: 2000,
+    //   autoplaytimeout: 5000,
+    //   responsive: {
+    //     0: {
+    //       items: 1,
+    //       margin: 12
+    //     },
+    //     600: {
+    //       items: 2,
+    //       margin: 10
+    //     },
+    //     1000: {
+    //       items: 4,
+    //       margin: 10
+    //     }
+    //   }
+    // })
 
 
-    $('.latestSlider').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      dots: false,
-      autoplay: true,
-      autoplayHoverPause: true,
-      smartSpeed: 2000,
-      autoplaytimeout: 5000,
-      responsive: {
-        0: {
-          items: 1,
-          margin: 12
-        },
-        600: {
-          items: 2,
-          margin: 10
-        },
-        1000: {
-          items: 3  ,
-          margin: 10
-        }
-      }
-    })
+    // $('.latestSlider').owlCarousel({
+    //   loop: true,
+    //   margin: 10,
+    //   nav: false,
+    //   dots: false,
+    //   autoplay: true,
+    //   autoplayHoverPause: true,
+    //   smartSpeed: 2000,
+    //   autoplaytimeout: 5000,
+    //   responsive: {
+    //     0: {
+    //       items: 1,
+    //       margin: 12
+    //     },
+    //     600: {
+    //       items: 2,
+    //       margin: 10
+    //     },
+    //     1000: {
+    //       items: 3,
+    //       margin: 10
+    //     }
+    //   }
+    // })
 
 
 
 
-    $('.partner_slider').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      dots: false,
-      autoplay: true,
-      autoplayHoverPause: true,
-      smartSpeed: 2000,
-      autoplaytimeout: 5000,
-      responsive: {
-        0: {
-          items: 1,
-          margin: 12
-        },
-        600: {
-          items: 2,
-          margin: 10
-        },
-        1000: {
-          items: 5,
-          margin: 10
-        }
-      }
-    })
+    // $('.partner_slider').owlCarousel({
+    //   loop: true,
+    //   margin: 10,
+    //   nav: false,
+    //   dots: false,
+    //   autoplay: true,
+    //   autoplayHoverPause: true,
+    //   smartSpeed: 2000,
+    //   autoplaytimeout: 5000,
+    //   responsive: {
+    //     0: {
+    //       items: 1,
+    //       margin: 12
+    //     },
+    //     600: {
+    //       items: 2,
+    //       margin: 10
+    //     },
+    //     1000: {
+    //       items: 5,
+    //       margin: 10
+    //     }
+    //   }
+    // })
 
 
 
@@ -625,14 +694,14 @@
       loop: true,
       margin: 10,
       nav: false,
-      dots: false,
-      autoplay: true,
+      dots: true,
+      autoplay: false,
       autoplayHoverPause: true,
       smartSpeed: 2000,
       autoplaytimeout: 5000,
       responsive: {
         0: {
-          items: 1,
+          items: 2,
           margin: 12
         },
         600: {
@@ -640,7 +709,7 @@
           margin: 10
         },
         1000: {
-          items: 3,
+          items: 2,
           margin: 10
         }
       }

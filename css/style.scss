@@ -24,7 +24,7 @@ h6 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     font-weight: 400;
     color: #212121;
@@ -109,40 +109,44 @@ p {
 
 //***************** banner section css start *************//
 .banner_div {
-
-    .banner-slider {
-        .carousel-inner {
-            .carousel-item {
-                position: relative;
-
-                img {
-                    width: 100%;
-                    height: 520px;
-                    object-fit: cover;
-                    position: relative;
-                }
-
-                .banner_txt {
-                    position: absolute;
-                    bottom: 0px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background: #353535ad;
-                    width: 100%;
-                    text-align: center;
-
-                    h1 {
-                        font-size: 40px;
-                        text-transform: capitalize;
-                        display: inline-block;
-                        color: #c2848d;
-                        margin-bottom: 0;
-                        padding: 20px 0;
-                    }
-                }
-            }
-        }
+    video {
+        width: 100%;
+        height: 460px;
     }
+
+    // .banner-slider {
+    //     .carousel-inner {
+    //         .carousel-item {
+    //             position: relative;
+
+    //             img {
+    //                 width: 100%;
+    //                 height: 520px;
+    //                 object-fit: cover;
+    //                 position: relative;
+    //             }
+
+    //             .banner_txt {
+    //                 position: absolute;
+    //                 bottom: 0px;
+    //                 left: 50%;
+    //                 transform: translateX(-50%);
+    //                 background: #353535ad;
+    //                 width: 100%;
+    //                 text-align: center;
+
+    //                 h1 {
+    //                     font-size: 40px;
+    //                     text-transform: capitalize;
+    //                     display: inline-block;
+    //                     color: #c2848d;
+    //                     margin-bottom: 0;
+    //                     padding: 20px 0;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 
@@ -158,21 +162,24 @@ p {
 
 
 //**************  all slider start **************//
-  
-.announcement{
+
+.announcement {
     padding: 16px 24px;
     background: #edeaea;
     border-radius: 4px;
     position: relative;
     margin-left: 20px;
-    span{
+    margin-bottom: 24px;
+
+    span {
         padding: 5px 12px;
         background: #f78e33;
         color: white;
         text-transform: capitalize;
         position: relative;
     }
-    img{
+
+    img {
         position: absolute;
         width: auto !important;
         bottom: -19px;
@@ -181,71 +188,81 @@ p {
 }
 
 
-.events{
+.events {
     margin-top: 30px;
     border: 1px solid #e1e1e1;
-    img{
+
+    img {
         padding: 8px;
         box-shadow: 1px 2px 24px #00000046;
-        margin-bottom: 16px ;  
-        border-radius: 4px;    
+        margin-bottom: 16px;
+        border-radius: 4px;
+        width: 100%;
     }
-    .event_txt{
+
+    .event_txt {
         padding: 8px 12px 30px;
     }
-    a.event_head{
+
+    a.event_head {
         color: #ff4c08;
         font-size: 22px;
         margin-bottom: 16px;
         text-decoration: none;
         display: -webkit-box;
         -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         overflow: hidden;
     }
-    p{
+
+    p {
         display: -webkit-box;
         -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         overflow: hidden;
         color: $secondary-clr-lit;
         font-size: 16px;
-        .fa-calendar-days{
+
+        .fa-calendar-days {
             color: #ff4c08 !important;
         }
-        
+
     }
-    .btn1{
+
+    .btn1 {
         margin-top: 20px;
     }
 
 }
 
-.partners_div {
-    .partner {
+// .partners_div {
+.partner {
+    margin: 0 auto 24px;
+
+    img {
+        height: 140px;
         width: 140px;
-        margin: 35px auto;
-        img {
-            height: 140px;
-            width: 140px;
-            object-fit: contain;
-            padding: 6px 30px;
-            background: #fceff1;
-            box-shadow: 1px 2px 24px #00000046;
-            border-radius: 4px;
-        }
+        object-fit: contain;
+        padding: 6px 30px;
+        background: #fceff1;
+        box-shadow: 1px 2px 24px #00000046;
+        border-radius: 4px;
     }
 }
 
-.home_submit_entry{
+// }
+
+.home_submit_entry {
     border-radius: 6px;
-    padding: 20px ;
+    padding: 20px;
     border: 2px solid #b76e79;
-    img{
+
+    img {
         width: 100%;
         border-radius: 6px;
     }
-    .btn1{
+
+    .btn1 {
         display: flex;
         justify-content: center;
         margin-top: -5px;
@@ -317,69 +334,118 @@ p {
 
 
 
-details[open] summary~* {
-    animation: open 0.6s ease-in-out;
-}
+// details[open] summary~* {
+//     animation: open 0.6s ease-in-out;
+// }
 
-@keyframes open {
-    0% {
-        opacity: 0;
-    }
+// @keyframes open {
+//     0% {
+//         opacity: 0;
+//     }
 
-    100% {
-        opacity: 1;
-    }
-}
+//     100% {
+//         opacity: 1;
+//     }
+// }
 
-details summary::-webkit-details-marker {
-    display: none;
-}
+// details summary::-webkit-details-marker {
+//     display: none;
+// }
 
-details {
-    margin-bottom: 16px;
+// details {
+//     margin-bottom: 16px;
 
-    summary {
+//     summary {
+//         width: 100%;
+//         padding: 6px 12px;
+//         background: white;
+//         border-radius: 4px;
+//         position: relative;
+//         cursor: pointer;
+//         font-size: 1.25rem;
+//         font-weight: 500;
+//         list-style: none;
+
+//         &::after {
+//             content: "+";
+//             color: black;
+//             position: absolute;
+//             font-size: 1.75rem;
+//             line-height: 0;
+//             margin-top: 0.75rem;
+//             right: 0;
+//             font-weight: 200;
+//             transform-origin: center;
+//             transition: 200ms linear;
+//         }
+//     }
+// }
+
+// details[open] summary:after {
+//     transform: rotate(45deg);
+//     font-size: 2rem;
+// }
+
+// details summary {
+//     outline: 0;
+// }
+
+// details p {
+//     font-size: 0.95rem;
+//     margin: 0 0 1rem;
+//     padding: 6px 12px;
+//     background: white;
+//     border-top: 1px solid #c1c1c1;
+// }
+
+
+
+
+
+//*-------------- bradecrumb css start --------------*//
+.breadcrumb_div {
+    background-image: url("../images/about-image.jpg");
+    padding: 140px 0;
+    position: relative;
+    // background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    &::after{
+        position: absolute;
+        content: "";
+        height: 100%;
         width: 100%;
-        padding: 6px 12px;
-        background: white;
-        border-radius: 4px;
+        background: #b76e7937;
+        top: 0;
+        left: 0;
+    }
+    .breadcrumb_div_inner{
         position: relative;
-        cursor: pointer;
-        font-size: 1.25rem;
-        font-weight: 500;
-        list-style: none;
+        z-index: 11;
+        h3{
+            color: white;
+            text-transform: capitalize;
+            font-size: 34px;
+        }
+        .breadcrumb{
+            .breadcrumb-item{
+                font-size: 18px;
+                text-transform: capitalize;
+                a{
+                    color: white;
+                text-decoration: none;
 
-        &::after {
-            content: "+";
-            color: black;
-            position: absolute;
-            font-size: 1.75rem;
-            line-height: 0;
-            margin-top: 0.75rem;
-            right: 0;
-            font-weight: 200;
-            transform-origin: center;
-            transition: 200ms linear;
+                }
+                &.active{
+                    color: #ed94a2;
+                }
+            }
         }
     }
 }
 
-details[open] summary:after {
-    transform: rotate(45deg);
-    font-size: 2rem;
-}
 
-details summary {
-    outline: 0;
-}
-
-details p {
-    font-size: 0.95rem;
-    margin: 0 0 1rem;
-    padding: 6px 12px;
-    background: white;
-    border-top: 1px solid #c1c1c1;
-}
 
 
 //*************** Footer div css start **************//
@@ -426,6 +492,7 @@ details p {
             text-transform: capitalize;
             font-weight: 500;
             font-size: 22px;
+            border-bottom: 2px solid white;
 
         }
 
@@ -471,9 +538,11 @@ details p {
 
     .copy_right_area {
         padding: 8px 0;
+
         p {
-            bottom: 0 !important;            
+            bottom: 0 !important;
             color: white;
+            font-size: 13px;
         }
 
         color: white;
@@ -490,6 +559,70 @@ details p {
 
 
 //************ Mobile vies css start **********//
+@media (min-width:320px) and (max-width:767.5px) {
+    .sec_head {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .banner_div {
+        video {
+            width: 100%;
+            height: 200px;
+        }
+    }
+    .partner{
+         img {
+        height: 120px;
+        width: 120px;
+        padding: 6px 10px;
+    }
+}
+
+
+    .navbar {
+
+        // background: $primary-clr;
+        .navbar-brand {
+            img {
+                height: 66px;
+                width: 66px;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        background: #ffffff;
+        padding: 4px;
+
+        .navbar-toggler-icon {
+            font-size: small;
+            vertical-align: bottom;
+        }
+    }
+
+    .navbar-collapse {
+        padding: 6px;
+        background: $primary-clr;
+
+        .navbar-nav {
+            .nav-link {
+                padding: 0 0 3px;
+
+                &.active {
+                    color: white !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768) and (max-width:991.5px) {}
 
 @media (min-width:992px) and (max-width:1023.5px) {}
 
