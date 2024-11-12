@@ -24,6 +24,7 @@ p {
   padding: 10px 20px;
   font-weight: 500;
   border-radius: 4px;
+  border: none;
   text-transform: capitalize;
   background: #000000;
   text-decoration: none;
@@ -36,6 +37,24 @@ p {
   color: white;
 }
 
+.btn2 {
+  display: inline-block;
+  border: 1px solid #ff4c08;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: #ff4c08;
+  color: #fff;
+  border-radius: 22px;
+  box-shadow: 0 5px 8px -3px rgba(255, 76, 8, 0.6509803922);
+  transition: 0.4s;
+}
+.btn2:hover {
+  background: #fff;
+  color: #ff4c08;
+  transition: 0.4s;
+}
+
 .sec_gap {
   padding: 60px 0;
 }
@@ -43,7 +62,7 @@ p {
 .sec_head {
   font-size: 36px;
   font-weight: 500;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   position: relative;
@@ -53,6 +72,14 @@ p {
   bottom: -28px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -147,8 +174,8 @@ p {
   margin: 0 auto 24px;
 }
 .partner img {
-  height: 140px;
-  width: 140px;
+  height: 170px;
+  width: 170px;
   -o-object-fit: contain;
      object-fit: contain;
   padding: 6px 30px;
@@ -229,7 +256,7 @@ p {
   content: "";
   height: 100%;
   width: 100%;
-  background: rgba(183, 110, 121, 0.2156862745);
+  background: rgba(183, 110, 121, 0.1019607843);
   top: 0;
   left: 0;
 }
@@ -252,6 +279,194 @@ p {
 }
 .breadcrumb_div .breadcrumb_div_inner .breadcrumb .breadcrumb-item.active {
   color: #ed94a2;
+}
+
+.award_category_accordion .accordion-item {
+  margin-bottom: 15px;
+  border-bottom: 0;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  background: #b76e79;
+  color: white;
+  padding: 10px;
+  border-radius: 4px !important;
+}
+
+.accordion-button::after {
+  width: 20px;
+  height: 20px;
+}
+
+.accordion-body {
+  padding: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 4px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion_left {
+  padding-left: 40px;
+}
+
+.accordion_right {
+  padding-right: 40px;
+}
+
+.contact-main {
+  padding: 35px 25px 35px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 650px;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 8px 27px -3px rgba(11, 3, 78, 0.16);
+  border-radius: 4px;
+}
+
+.contact-area {
+  padding: 25px 25px 35px;
+  background: #0b034e;
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  transform: translate(0, -50%);
+  box-shadow: 0px 8px 16px -3px rgba(0, 0, 0, 0.52);
+  color: white;
+  border-radius: 4px;
+}
+
+.contact-area p {
+  color: white;
+  font-size: 18px;
+}
+
+.contact-area .tab-pane ul li {
+  margin-bottom: 4px;
+}
+
+.contact-area .tab-pane ul li span {
+  margin-right: 10px;
+}
+
+.contact_us_div .nav-pills .nav-link {
+  display: inline-block;
+  border: 1px solid #ff4c08;
+  padding: 8px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #ff4c08;
+  color: #fff;
+  border-radius: 22px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 8px -3px rgba(255, 76, 8, 0.65);
+  transition: 0.4s;
+}
+
+.contact_us_div .nav-pills .nav-link:hover {
+  background: #fff;
+  color: #ff4c08;
+  transition: 0.4s;
+}
+
+.contact-form {
+  width: 320px;
+  margin-left: auto;
+}
+
+.contact-form .form-group .form-control {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background: rgba(231, 231, 255, 0.5294117647);
+  border: transparent;
+  box-shadow: 0px 6px 10px -7px rgba(0, 0, 0, 0.44);
+}
+
+.contact-form h4 {
+  color: #ff4c08;
+}
+
+.award_commitee_div .member_div {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.award_commitee_div .member_div img {
+  height: 400px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.award_commitee_div .member_div .member_details {
+  position: absolute;
+  top: 84%;
+  left: 0;
+  width: 100%;
+  background: rgba(183, 110, 121, 0.8705882353);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+}
+.award_commitee_div .member_div .member_details h4 {
+  margin-bottom: 10px;
+}
+.award_commitee_div .member_div .member_details p {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 500;
+}
+.award_commitee_div .member_div:hover .member_details {
+  top: 60%;
+}
+
+.judging_div .judging_looking .member_div {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+.judging_div .judging_looking .member_div img {
+  height: 400px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.judging_div .judging_looking .member_div .member_details {
+  position: absolute;
+  top: 84%;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(to right, rgba(255, 220, 248, 0.89), rgba(136, 136, 214, 0.66));
+  opacity: 1;
+}
+.judging_div .judging_looking .member_div .member_details h4 {
+  margin-bottom: 10px;
+  color: black;
+}
+.judging_div .judging_looking .member_div .member_details p {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 500;
+}
+.judging_div .judging_looking .member_div:hover .member_details {
+  top: 60%;
+  transform: skew(0deg, 5deg);
 }
 
 .footer_div {
@@ -334,7 +549,7 @@ p {
 
 @media (min-width: 320px) and (max-width: 767.5px) {
   .sec_head {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 50px;
   }
@@ -346,9 +561,12 @@ p {
     height: 200px;
   }
   .partner img {
-    height: 120px;
-    width: 120px;
-    padding: 6px 10px;
+    height: 80px;
+    width: 90px;
+    padding: 6px 8px;
+  }
+  .award_category_accordion .accordion-item {
+    margin-bottom: 10px;
   }
   .navbar .navbar-brand img {
     height: 66px;
@@ -371,5 +589,32 @@ p {
   }
   .navbar-collapse .navbar-nav .nav-link.active {
     color: white !important;
+  }
+  .home_submit_entry {
+    margin-top: 20px;
+  }
+  .breadcrumb_div {
+    padding: 35px 0;
+  }
+  .breadcrumb_div .breadcrumb_div_inner h3 {
+    font-size: 26px;
+  }
+  .breadcrumb_div .breadcrumb_div_inner .breadcrumb .breadcrumb-item {
+    font-size: 16px;
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    padding: 8px;
+    font-size: 13px;
+  }
+  .accordion-button::after {
+    width: 18px;
+    height: 16px;
+  }
+}
+@media (min-width: 768) and (max-width: 991.5px) {
+  .partner img {
+    height: 120px;
+    width: 120px;
+    padding: 6px 8px;
   }
 }/*# sourceMappingURL=style.css.map */

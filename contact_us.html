@@ -44,8 +44,6 @@
 </head>
 
 <body>
-
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -63,28 +61,28 @@
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about_us.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="updated_events.html">Event Updates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Award Categories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nominees</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hall of Fame</a>
+                            <a class="nav-link" href="award_category.html">Award Categories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Submit Entry</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">Nominees</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="award_update.html">award Updates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hall of Fame</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact us</a>
+                            <a class="nav-link active" href="contact_us.html">contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -97,11 +95,11 @@
     <div class="breadcrumb_div">
         <div class="container">
             <div class="breadcrumb_div_inner">
-                <h3>Event Update</h3>
+                <h3>contact us</h3>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">event update</li>
+                        <li class="breadcrumb-item active" aria-current="page">contact</li>
                     </ol>
                 </nav>
             </div>
@@ -113,101 +111,75 @@
 
 
     <!------------- Latest Events section start ------------>
-    <section class="announcement_div latest_events sec_gap">
+    <section class="contact_us_div sec_gap">
         <div class="container">
-            <div class="sec_headeing">
-                <h4 class="sec_head text-center">Latest Events
-                    <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
-                </h4>
-            </div>
-            <!-- <div class="owl-carousel owl-theme latestSlider"> -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_1.jpg" alt="Event 1" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">2020 Award Winners</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-                            <p><i>
-                                    Awards Hall of Fame: 2020 Winners, links to their stories and judges' comments.
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">General Enquiries</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Marketing Enquiries</button>
+                </li>
+            </ul>
+            <div class="contact-main">
+                
+                <div class="contact-area">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="mb-4">
+                                <p style="border-bottom: 1px solid #ffffff65;padding-bottom: 6px;text-align: center;">General Enquiries</p>
+                                <h4>Enquiries</h4>
+                                <p style="font-size: 18px;">Awards &amp; Events Manager</p>
+                            </div>
+                            <ul>
+                                <li><span><i class="fas fa-map-marker-alt"></i></span>C/O GPU, Fajara, The Gambia</li>
+                                <li><span><i class="far fa-envelope"></i></span>info@gpuawards.gm</li>
+                                <li><span><i class="fas fa-mobile-alt"></i></span>+220 4498215 / +220 7169699</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="mb-4">
+                                <p style="border-bottom: 1px solid #ffffff65;padding-bottom: 6px;text-align: center;">Marketing Enquiries</p>
+                                <h4>Enquiries</h4>
+                                <p style="font-size: 18px;">Fundraising Team</p>
+                            </div>
+                            <ul>
+                                <li><span><i class="fas fa-map-marker-alt"></i></span>C/O GPU, Fajara, The Gambia</li>
+                                <li><span><i class="far fa-envelope"></i></span>info@gpuawards.gm</li>
+                                <li><span><i class="fas fa-mobile-alt"></i></span>+220 4498215 / +220 7169699</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_2.jpeg" alt="Event 2" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">Watch National Journalism Awards 2020 Live</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-                            <p><i>
-                                    Watch National Journalism Awards 2020 Live!
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_3.jpeg" alt="Event 3" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">GPU Awards 2020: Host Broadcaster Confirmed</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
 
-                            <p><i>
-                                    Eye Africa TV wins host broadcaster bid for this year's GPU National Journalism
-                                    Awards. The Branding
-                                    and Communications Committee confirmed the winning bid on Friday 9 October 2020.
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_1.jpg" alt="Event 1" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">2020 Award Winners</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-                            <p><i>
-                                    Awards Hall of Fame: 2020 Winners, links to their stories and judges' comments.
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_2.jpeg" alt="Event 2" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">Watch National Journalism Awards 2020 Live</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
-                            <p><i>
-                                    Watch National Journalism Awards 2020 Live!
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="events">
-                        <img src="images/latest_events/event_3.jpeg" alt="Event 3" loading="lazy">
-                        <div class="event_txt">
-                            <a href="" class="event_head">GPU Awards 2020: Host Broadcaster Confirmed</a>
-                            <p><i class="fa-regular fa-calendar-days"></i> Oct 25,2020</p>
+                <div class="contact-form">
+                    <h4>Get In Touch</h4>
+                    <p>Fill in your information.</p>
+                    <form action="/web/20210803080520/https://gpuawards.gm/Contact/Enquiry" method="post">
 
-                            <p><i>
-                                    Eye Africa TV wins host broadcaster bid for this year's GPU National Journalism
-                                    Awards. The Branding
-                                    and Communications Committee confirmed the winning bid on Friday 9 October 2020.
-                                </i></p>
-                            <a href="" class="btn1">learn more</a>
+                        <div class="form-group">
+                            <input type="text" name="Name" required="" class="form-control" placeholder="Your Name...">
                         </div>
-                    </div>
+
+                        <div class="form-group">
+                            <input type="email" name="EmailId" required="" class="form-control"
+                                placeholder="Your Mail-Id...">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="Message" class="form-control" required="" id="" cols="30" 
+                                placeholder="Type your massage here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn1">Send <i class="fa-solid fa-right-long"></i></button>
+
+                    </form>
                 </div>
+
             </div>
-        </div>
         </div>
     </section>
     <!------------- Latest Events section end ------------>
