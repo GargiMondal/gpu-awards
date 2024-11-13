@@ -134,6 +134,10 @@ ul li a {
 .events {
   margin-top: 30px;
   border: 1px solid #e1e1e1;
+  transition: all 0.5s ease-in-out;
+}
+.events:hover {
+  transform: translateY(-6px);
 }
 .events img {
   padding: 8px;
@@ -471,8 +475,7 @@ ul li a {
   font-weight: 500;
 }
 .judging_div .judging_looking .member_div:hover .member_details {
-  top: 62%;
-  transform: skew(0deg, 5deg);
+  top: 64%;
 }
 .judging_div .judging_looking p {
   width: 23%;

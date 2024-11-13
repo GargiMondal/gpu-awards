@@ -222,7 +222,10 @@ ul {
 .events {
     margin-top: 30px;
     border: 1px solid #e1e1e1;
-
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        transform: translateY(-6px);
+    }
     img {
         padding: 8px;
         box-shadow: 1px 2px 24px #00000046;
@@ -712,8 +715,8 @@ ul {
             }
 
             &:hover .member_details {
-                top: 62%;
-                transform: skew(0deg, 5deg);
+                top: 64%;
+                // transform: skew(0deg, 5deg);
             }
         }
 
