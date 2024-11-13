@@ -391,6 +391,12 @@ ul li a {
   color: #ff4c08;
 }
 
+.award_commitee_div h6 {
+  color: #b76e79;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
 .award_commitee_div .member_div {
   position: relative;
   overflow: hidden;
@@ -427,7 +433,7 @@ ul li a {
   font-weight: 500;
 }
 .award_commitee_div .member_div:hover .member_details {
-  top: 60%;
+  top: 61%;
 }
 
 .judging_div .judging_looking .member_div {
@@ -445,7 +451,7 @@ ul li a {
 }
 .judging_div .judging_looking .member_div .member_details {
   position: absolute;
-  top: 84%;
+  top: 85%;
   left: 0;
   width: 100%;
   color: white;
@@ -465,8 +471,12 @@ ul li a {
   font-weight: 500;
 }
 .judging_div .judging_looking .member_div:hover .member_details {
-  top: 60%;
+  top: 62%;
   transform: skew(0deg, 5deg);
+}
+.judging_div .judging_looking p {
+  width: 23%;
+  margin: auto;
 }
 
 .footer_div {
@@ -548,13 +558,20 @@ ul li a {
 }
 
 @media (min-width: 320px) and (max-width: 767.5px) {
+  .sec_gap {
+    padding: 30px 0;
+  }
   .sec_head {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 50px;
   }
+  .sec_head img {
+    width: 120px;
+    bottom: -22px;
+  }
   p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .banner_div video {
     width: 100%;
@@ -609,6 +626,46 @@ ul li a {
   .accordion-button::after {
     width: 18px;
     height: 16px;
+  }
+  .accordion_right {
+    padding-right: 0;
+  }
+  .accordion_left {
+    padding-left: 0;
+  }
+  .contact_us_div .nav-pills .nav-link {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+  .contact-main {
+    padding: 14px;
+    display: block;
+  }
+  .contact-area {
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+    padding: 14px;
+  }
+  .contact-form {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .contact-form form .btn1 {
+    width: 100% !important;
+  }
+  .award_commitee_div .member_div {
+    margin-bottom: 30px;
+  }
+  .award_commitee_div .member_div .member_details {
+    top: 85%;
+  }
+  .judging_looking p {
+    width: 100% !important;
+  }
+  .award_commitee_div h6 {
+    font-size: 17px;
   }
 }
 @media (min-width: 768) and (max-width: 991.5px) {
