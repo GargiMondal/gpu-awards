@@ -482,6 +482,47 @@ ul li a {
   margin: auto;
 }
 
+.nominees_div .nominee_head {
+  color: #ff4c08;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.nominees_div .nominee_head::before {
+  position: absolute;
+  content: " ";
+  top: 100%;
+  left: 0;
+  height: 3px;
+  width: 12%;
+  background: linear-gradient(45deg, #ff4c08, rgba(157, 201, 212, 0));
+}
+.nominees_div .nominees {
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.nominees_div .nominees h6 {
+  margin-top: 8px;
+  text-transform: capitalize;
+  color: #151515;
+  transition: all 0.4s all;
+}
+.nominees_div .nominees:hover {
+  transform: translateY(-6px);
+}
+.nominees_div .nominees:hover h6 {
+  color: #ff4c08;
+}
+
+.top_tab {
+  background: #b76e79 !important;
+  color: white !important;
+  border-radius: 4px !important;
+  text-transform: capitalize;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .footer_div {
   background: #2c2c2c;
 }

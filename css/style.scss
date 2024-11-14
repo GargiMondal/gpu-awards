@@ -730,6 +730,53 @@ ul {
 //************* about us page css start *************//
 
 
+//************ nominees page css start ************//
+.nominees_div{
+    .nominee_head{
+        color: #ff4c08;
+        position: relative;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        &::before {
+            position: absolute;
+            content: " ";
+            top: 100%;
+            left: 0;
+            height: 3px;
+            width: 12%;
+            background: linear-gradient(45deg, #ff4c08, #9dc9d400);
+        }
+    }
+    .nominees{
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        
+        h6{
+            margin-top: 8px;
+            text-transform: capitalize;
+            color: #151515;
+            transition: all 0.4s all;
+        }
+        &:hover{
+            transform: translateY(-6px);
+         h6{
+            color: #ff4c08;
+        }
+    }
+    }
+}
+.top_tab{
+    background: $primary-clr !important;
+    color: white !important;
+    border-radius: 4px !important;
+    text-transform: capitalize;
+    border: none !important;
+    box-shadow: none !important;
+}
+//************ nominees page css end ************//
+
+
+
 
 //*************** Footer div css start **************//
 .footer_div {

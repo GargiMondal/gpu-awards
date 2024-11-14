@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPU Award</title>
+    <link rel="icon" type="image/x-icon" href="images/revend_favicon.png">
+
+    <!-- font-mamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- owl-carousel slider -->
+    <!-- <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS animation -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/gpuAward.webp" alt="LOGO" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <!-- Home, About, Award Categories, Submit Entry, Nominees, Award Updates, Hall of Fame, Gallery, Contact Us. -->
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="award_category.html">Award Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="submit_entry.html">Submit Entry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nominees.html">Nominees</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="award_update.html">award Updates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hall_fame.html">Hall of Fame</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-------------- bradecrumb start -------------->
+    <div class="breadcrumb_div">
+        <div class="container">
+            <div class="breadcrumb_div_inner">
+                <h3>Award Nominees</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Nominees</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- bradecrumb end -------------->
+
+
+
+    <section class="about_us contact_us_div sec_gap">
+        <div class="container">
+            <div class="sec_headeing">
+                <h4 class="sec_head text-center">Nominees
+                    <img src="images/heading_award.png" alt="HEADING AWARD" loading="lazy">
+                </h4>
+            </div>
+            
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link top_tab active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">nominees</button>
+                </li>
+                <!-- <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Marketing Enquiries</button>
+                </li> -->
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab-1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                                type="button" role="tab" aria-controls="pills-home" aria-selected="true">2020</button>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Marketing Enquiries</button>
+                        </li> -->
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent-1">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Women & Children Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_1.jpg" alt="Nominee 1" loading="lazy">
+                                            <h6>Adam Jobe, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_2.jpg" alt="Nominee 1" loading="lazy">
+                                            <h6>Mariama Cham, Choice FM 106.4</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_3.jpg" alt="Nominee 1" loading="lazy">
+                                            <h6>Samuel Bah, GRTS</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Business and Finance Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_4.jpg" alt="Nominee 4" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_5.jpg" alt="Nominee 5" loading="lazy">
+                                            <h6>Muhammed S. Bah, Foroyaa</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_6.jpg" alt="Nominee 6" loading="lazy">
+                                            <h6>Yusef Taylor, Gainako News</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Human Rights Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_7.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Ansu Manneh, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Mustapha K. Darboe, Kerr Fatou</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_4.jpg" alt="Nominee 9" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Legal Affairs Reporting</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_7.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Ansu Manneh, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Mustapha K. Darboe, Kerr Fatou</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_7.jpg" alt="Nominee 9" loading="lazy">
+                                            <h6>Kebba Ansu Manneh, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Investigative and Features Writing Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_6.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Yusef Taylor, Gainako News</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Muhammed S. Bah, Foroyaa</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Sports Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_9.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Omar Jarju, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_10.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Jainaba Sonko, QTV</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Migration & Human Trafficking Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_11.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Alagie Manneh, The Standard</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_4.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Special: COVID-19 Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Mustapha K. Darboe, Malagen</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_12.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Sainabou Jagne, GRTS</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Mustapha K. Darboe, Malagen</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Agriculture Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_6.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_6.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_13.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Momodou Jarju, Mansa Banko</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Environment Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_7.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_8.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Muhammed S. Bah, Foroyaa</h6>
+                                        </a>
+                                    </div> 
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_7.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Kebba Jeffang, The Chronicle</h6>
+                                        </a>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="nominees_div mb-5">
+                                <h5 class="nominee_head">Health & Medical Reporting Award</h5>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_14.jpg" alt="Nominee 7" loading="lazy">
+                                            <h6>Oumie Sowe, PTV</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_15.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Alieu Ceesay, QTV</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#" class="nominees">
+                                            <img src="images/nominees/nominee_16.jpg" alt="Nominee 8" loading="lazy">
+                                            <h6>Kumba Leigh, The Gambia Daily</h6>
+                                        </a>
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            
+                        </div> -->
+                    </div>
+                
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+ <!--------------- Footer SECTION start --------------->
+ <footer class="footer_div " style="padding-top: 60px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="footer_logo_div">
+                    <h4 style="color: #c2848d;">GPU AWARDS</h4>
+                    <p>The Gambia National Journalism Awards is the highest and most prestigious Journalism Awards
+                        in the
+                        country organised by the Gambia Press Union.</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4">
+                <div class="footer_links_div">
+                    <strong>contact</strong>
+                    <ul>
+                        <li style="color: white">C/O GPU, Fajara, The Gambia</li>
+                        <li style="color: white">+220 4498215 / +220 7169699</li>
+                        <li style="color: white">info@gpuawards.gm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4">
+                <div class="footer_links_div">
+                    <strong>about us</strong>
+                    <ul>
+                        <li><a href="#">Award Categories</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="footer_links_div">
+                    <strong>social links</strong>
+                    <ul class="footer_social_icons">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" class="active"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copy_right_area" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2020 gpuawards.gm / All Rights Reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--------------- Footer SECTION end --------------->
+
+
+
+
+
+    <!-- jquery -->
+    <!-- <script src="js/jquery-3.7.1.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- owl-carousel js -->
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- AOS js -->
+    <script src="js/aos.js"></script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+
+
+    <script>
+
+        AOS.init();
+
+    </script>
+
+
+</body>
+
+</html>
