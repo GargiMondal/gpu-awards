@@ -14,6 +14,10 @@ $secondary-clr-lit: #2c2c2c;
     margin: 0;
     padding: 0;
 }
+body{
+    background: #f8f5f1;
+
+}
 
 h2,
 h3,
@@ -223,9 +227,11 @@ ul {
     margin-top: 30px;
     border: 1px solid #e1e1e1;
     transition: all 0.5s ease-in-out;
-    &:hover{
+
+    &:hover {
         transform: translateY(-6px);
     }
+
     img {
         padding: 8px;
         box-shadow: 1px 2px 24px #00000046;
@@ -620,12 +626,13 @@ ul {
 
 //************* about us page css start *************//
 .award_commitee_div {
-    h6{
+    h6 {
         color: #b76e79;
         font-size: 22px;
-        text-align: center; 
+        text-align: center;
         font-weight: 600;
     }
+
     .member_div {
         position: relative;
         overflow: hidden;
@@ -731,12 +738,13 @@ ul {
 
 
 //************ nominees page css start ************//
-.nominees_div{
-    .nominee_head{
+.nominees_div {
+    .nominee_head {
         color: #ff4c08;
         position: relative;
         text-transform: capitalize;
         margin-bottom: 20px;
+
         &::before {
             position: absolute;
             content: " ";
@@ -747,25 +755,30 @@ ul {
             background: linear-gradient(45deg, #ff4c08, #9dc9d400);
         }
     }
-    .nominees{
+
+    .nominees {
         text-decoration: none;
         transition: all 0.4s ease-in-out;
-        
-        h6{
+
+        h6 {
             margin-top: 8px;
             text-transform: capitalize;
             color: #151515;
             transition: all 0.4s all;
         }
-        &:hover{
+
+        &:hover {
             transform: translateY(-6px);
-         h6{
-            color: #ff4c08;
+
+            h6 {
+                color: #ff4c08;
+            }
         }
-    }
+
     }
 }
-.top_tab{
+
+.top_tab {
     background: $primary-clr !important;
     color: white !important;
     border-radius: 4px !important;
@@ -773,6 +786,7 @@ ul {
     border: none !important;
     box-shadow: none !important;
 }
+
 //************ nominees page css end ************//
 
 
@@ -889,6 +903,13 @@ ul {
 
 //************ Mobile vies css start **********//
 @media (min-width:320px) and (max-width:767.5px) {
+    .nominees_div{
+        .nominees {
+            h6{
+                margin-bottom: 30px;
+            }
+        }
+    }
     .sec_gap {
         padding: 30px 0;
     }
@@ -1036,13 +1057,15 @@ ul {
     .award_commitee_div .member_div .member_details {
         top: 85%;
     }
-    .judging_looking{
-        p{
+
+    .judging_looking {
+        p {
             width: 100% !important;
         }
     }
+
     .award_commitee_div {
-        h6{
+        h6 {
             font-size: 17px;
         }
     }
