@@ -532,8 +532,9 @@ ul li a {
   flex-direction: column;
   border-bottom: 2px solid #efd7db;
   padding: 22px;
-  margin-bottom: 24px;
   background-color: rgb(255, 255, 255) !important;
+  width: 60%;
+  margin: 24px auto 0;
 }
 .award-box .left-area {
   position: relative;
