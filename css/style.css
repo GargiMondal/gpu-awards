@@ -527,6 +527,49 @@ ul li a {
   box-shadow: none !important;
 }
 
+.award-box {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #efd7db;
+  padding: 22px;
+  margin-bottom: 24px;
+  background-color: rgb(255, 255, 255) !important;
+}
+.award-box .left-area {
+  position: relative;
+}
+.award-box .left-area img {
+  width: 220px;
+  border-radius: 4px;
+}
+.award-box .left-area .award-icon img {
+  position: absolute;
+  width: 50px;
+  top: -7px;
+  right: 7px;
+}
+.award-box .right-area a {
+  color: black;
+  text-decoration: none;
+}
+.award-box .right-area .fame-info {
+  display: flex;
+}
+.award-box .right-area .fame-info ul {
+  margin-right: 15%;
+}
+.award-box .right-area .fame-info ul li.line-1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ff4c08;
+}
+
+.hall_fame_top_imgDiv img {
+  width: 100%;
+  border-radius: 6px;
+}
+
 .footer_div {
   background: #2c2c2c;
 }
