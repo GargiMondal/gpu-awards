@@ -533,7 +533,7 @@ ul li a {
   border-bottom: 2px solid #efd7db;
   padding: 22px;
   background-color: rgb(255, 255, 255) !important;
-  width: 60%;
+  width: 80%;
   margin: 24px auto 0;
 }
 .award-box .left-area {
@@ -569,6 +569,34 @@ ul li a {
 .hall_fame_top_imgDiv img {
   width: 100%;
   border-radius: 6px;
+}
+
+.gallery_top_div {
+  background: white !important;
+  color: black !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+  text-transform: capitalize;
+}
+.gallery_top_div.active, .gallery_top_div:hover {
+  background: black !important;
+  color: white !important;
+}
+
+.picture_gallery {
+  text-align: center;
+  padding: 28px;
+  background: #efe6da;
+  border-radius: 4px;
+}
+.picture_gallery img {
+  width: 100%;
+  height: 190px;
+  margin-bottom: 26px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
 }
 
 .footer_div {
@@ -647,6 +675,47 @@ ul li a {
   bottom: 0 !important;
   color: white;
   font-size: 13px;
+}
+
+.details_txt_div strong {
+  font-size: 17px;
+}
+.details_txt_div .update_details_right_area {
+  margin-bottom: 30px;
+}
+.details_txt_div .member {
+  color: #ff4c08;
+  text-transform: capitalize;
+}
+.details_txt_div .story_name {
+  text-decoration: none;
+}
+.details_txt_div .story_name:hover {
+  color: #b76e79;
+}
+.details_txt_div .social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 40%;
+}
+.details_txt_div .social_icons i {
+  font-size: 30px;
+  color: #ff4c08;
+}
+.details_txt_div .social_icons i:hover {
+  color: #b76e79;
+}
+
+.committee_member_img {
+  text-align: center;
+}
+.committee_member_img img {
+  width: 100%;
+  height: 470px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 320px) and (max-width: 767.5px) {

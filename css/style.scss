@@ -799,7 +799,7 @@ ul {
     padding: 22px;
     // margin-bottom: 24px;
     background-color: rgb(255, 255, 255) !important;
-    width: 60%;
+    width: 80%;
     margin: 24px auto 0;
 
 
@@ -846,6 +846,38 @@ ul {
         border-radius: 6px;
     }
 }
+//********** hall of fames page css end **********//
+
+
+
+//************* gallary page css start *************//
+.gallery_top_div{
+    background: white !important;
+    color: black !important;
+    border-radius:4px !important;
+    box-shadow: none !important;
+    border: 1px solid black !important; 
+    text-transform: capitalize;
+    &.active,&:hover{
+        background: black !important;
+        color: white !important;
+    }
+}
+.picture_gallery{
+    text-align: center;
+    padding: 28px;
+    background: #efe6da;
+    border-radius: 4px;
+    img{
+        width: 100%;
+        height: 190px;
+        margin-bottom: 26px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+}
+//************* gallary page css end *************//
+
 
 
 //*************** Footer div css start **************//
@@ -953,6 +985,49 @@ ul {
 
 
 
+//********** about committee member details css start *************//
+
+.details_txt_div{
+    strong{
+        font-size: 17px;
+    }
+    .update_details_right_area{
+        margin-bottom: 30px;
+    }
+    .member{
+        color: #ff4c08;
+        text-transform: capitalize; 
+    }
+    .story_name{
+        text-decoration: none;
+        &:hover{
+            color: $primary-clr;
+        }
+    }
+    .social_icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 40%;
+        i{
+            font-size: 30px;
+            color: #ff4c08;
+            &:hover{
+                color: #b76e79;
+            }
+        }
+    }
+}
+
+.committee_member_img{
+    text-align: center;
+    img{
+        width:100%;
+        height: 470px;
+        object-fit: cover;
+    }
+}
 
 
 
