@@ -1030,7 +1030,30 @@ ul {
     }
 }
 
+//*********** submit entry page css start ***********//
+.submit_entry_form{
+    padding: 20px;
+    border-radius: 6px;
+    width: 70%;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 1px 2px 24px #aeaeae63;
 
+    label{
+        text-transform: uppercase;
+    }
+    h5{
+        input{
+            padding: 4px 8px;
+            border-radius: 3px;
+            &::placeholder{
+                font-size: 13px;
+                
+            }
+        }
+    }
+}
+//*********** submit entry page css end ***********//
 
 
 //************ Mobile views css start **********//

@@ -719,6 +719,28 @@ ul li a {
   border-radius: 6px;
 }
 
+.submit_entry_form {
+  padding: 20px;
+  border-radius: 6px;
+  width: 70%;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 1px 2px 24px rgba(174, 174, 174, 0.3882352941);
+}
+.submit_entry_form label {
+  text-transform: uppercase;
+}
+.submit_entry_form h5 input {
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.submit_entry_form h5 input::-moz-placeholder {
+  font-size: 13px;
+}
+.submit_entry_form h5 input::placeholder {
+  font-size: 13px;
+}
+
 @media (min-width: 320px) and (max-width: 767.5px) {
   .nominees_div .nominees h6 {
     margin-bottom: 30px;
