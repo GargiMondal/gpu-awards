@@ -723,21 +723,24 @@ ul li a {
   padding: 20px;
   border-radius: 6px;
   width: 70%;
-  margin: 0 auto;
+  margin: 40px auto;
   background: white;
   box-shadow: 1px 2px 24px rgba(174, 174, 174, 0.3882352941);
+}
+.submit_entry_form .form-check {
+  padding-left: 2.3em;
 }
 .submit_entry_form label {
   text-transform: uppercase;
 }
-.submit_entry_form h5 input {
+.submit_entry_form h6 input {
   padding: 4px 8px;
   border-radius: 3px;
 }
-.submit_entry_form h5 input::-moz-placeholder {
+.submit_entry_form h6 input::-moz-placeholder {
   font-size: 13px;
 }
-.submit_entry_form h5 input::placeholder {
+.submit_entry_form h6 input::placeholder {
   font-size: 13px;
 }
 
